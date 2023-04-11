@@ -151,8 +151,8 @@
 
 URL url = new URL("https://financialmodelingprep.com/api/v3/sp500_constituent?apikey=YOUR_API_KEY");
 
-try (BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream(), "UTF-8"))) {
-    for (String line; (line = reader.readLine()) != null;) {
+try {BufferedReader ) = new BufferedReader(new InputStreamReader(url.openStream(), "UTF-8")); {
+    for (String; (line = reader.readLine()) != null) {
     System.out.println(line);
   }
 }
