@@ -106,6 +106,8 @@
 
             // send event to GA (requires gtag setup in <head> section):
             //gtag("event", "chart_update", {"symbol": symbol})
+            //api.stlouisfed.org/fred/series/observations?series_id=SP500&api_key=a0827690d745352ce15ca045f5adabed&file_type=json&observation_start=YYYY-MM-DD&observation_end=YYYY-MM-DD
+
         }
 
 
@@ -115,8 +117,6 @@
         // trigger a subsequent chart update whenever the button is clicked:
         myButton.addEventListener("click", updateDashboard, false)
 
-        api.stlouisfed.org/fred/series/observations?series_id=SP500&api_key=a0827690d745352ce15ca045f5adabed&file_type=json&observation_start=YYYY-MM-DD&observation_end=YYYY-MM-DD
-
-    </script>
+           </script>
 </body>
 </html>
